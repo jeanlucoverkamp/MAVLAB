@@ -10,10 +10,10 @@ Clone The Repository Using Terminal / cmd
     
 Other interesting commands (in this order):
 
-  pull: git pull
+    pull: git pull
 
-  get status: git status
+    get status: git status
 
-  commit git: commit -a -m "commit message"
+    commit git: commit -a -m "commit message"
 
-  push: git push
+    push: git push

@@ -14,6 +14,6 @@ Other interesting commands (in this order):
 
     get status: git status
 
-    commit git: commit -a -m "commit message"
+    commit: git commit -a -m "commit message"
 
     push: git push

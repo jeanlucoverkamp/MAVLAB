@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8"/>
+<title>Airframe Configuration - PaparazziUAV</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Airframe_Configuration","wgTitle":"Airframe Configuration","wgCurRevisionId":24115,"wgRevisionId":24115,"wgArticleId":1529,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["User Documentation","Airframe Configuration"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Airframe_Configuration","wgRelevantArticleId":1529,"wgRequestId":"8e56066af8caf57785e56f07","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":true,"publish":true},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.categoryTree.css%7Cext.math.styles%7Cext.pygments%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="generator" content="MediaWiki 1.27.0"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="PaparazziUAV (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//wiki.paparazziuav.org/w/api.php?action=rsd"/>
+<link rel="copyright" href="http://www.gnu.org/copyleft/fdl.html"/>
+<link rel="alternate" type="application/atom+xml" title="PaparazziUAV Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Airframe_Configuration rootpage-Airframe_Configuration skin-vector action-view">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<div class="mw-indicators">
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">Airframe Configuration</h1>
+									<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From PaparazziUAV</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div style="float:right; clear:right; margin-left:1ex; border: 1px solid gray; padding: 0.7ex;" class="CategoryTreeTag" data-ct-mode="10" data-ct-options="{&quot;mode&quot;:10,&quot;hideprefix&quot;:20,&quot;showcount&quot;:false,&quot;namespaces&quot;:false}"><div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="Airframe_Configuration" title="collapse" data-ct-loaded="1" data-ct-state="expanded">▼</span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/wiki/Category:Airframe_Configuration">Airframe Configuration</a></div>
+		<div class="CategoryTreeChildren" style="display:block"><div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="Modules" title="expand" data-ct-state="collapsed">►</span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/wiki/Category:Modules">Modules</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="Subsystems" title="expand" data-ct-state="collapsed">►</span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/wiki/Category:Subsystems">Subsystems</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/wiki/Airframe_Configuration">Airframe Configuration</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/wiki/Autopilot_generation">Autopilot generation</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/wiki/Fixedwing_Configuration">Fixedwing Configuration</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/wiki/Rotorcraft_Configuration">Rotorcraft Configuration</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		</div></div>
+		</div>
+<p><br />
+</p>
+<div id="toc" class="toc"><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#About"><span class="tocnumber">1</span> <span class="toctext">About</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Creating_a_new_Aircraft"><span class="tocnumber">2</span> <span class="toctext">Creating a new Aircraft</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Firmware_and_Hardware_definitions"><span class="tocnumber">3</span> <span class="toctext">Firmware and Hardware definitions</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#Select_your_Board"><span class="tocnumber">3.1</span> <span class="toctext">Select your Board</span></a>
+<ul>
+<li class="toclevel-3 tocsection-5"><a href="#Simulation_targets"><span class="tocnumber">3.1.1</span> <span class="toctext">Simulation targets</span></a></li>
+<li class="toclevel-3 tocsection-6"><a href="#Board_targets"><span class="tocnumber">3.1.2</span> <span class="toctext">Board targets</span></a></li>
+<li class="toclevel-3 tocsection-7"><a href="#Direct_Makefile"><span class="tocnumber">3.1.3</span> <span class="toctext">Direct Makefile</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-8"><a href="#LEDs"><span class="tocnumber">3.2</span> <span class="toctext">LEDs</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-9"><a href="#Subsystems"><span class="tocnumber">4</span> <span class="toctext">Subsystems</span></a>
+<ul>
+<li class="toclevel-2 tocsection-10"><a href="#IMU"><span class="tocnumber">4.1</span> <span class="toctext">IMU</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#AHRS"><span class="tocnumber">4.2</span> <span class="toctext">AHRS</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Radio_Control"><span class="tocnumber">4.3</span> <span class="toctext">Radio Control</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Telemetry_.28Modem.29"><span class="tocnumber">4.4</span> <span class="toctext">Telemetry (Modem)</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#GPS"><span class="tocnumber">4.5</span> <span class="toctext">GPS</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-15"><a href="#XML_Parameters"><span class="tocnumber">5</span> <span class="toctext">XML Parameters</span></a>
+<ul>
+<li class="toclevel-2 tocsection-16"><a href="#Commands"><span class="tocnumber">5.1</span> <span class="toctext">Commands</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#Servos"><span class="tocnumber">5.2</span> <span class="toctext">Servos</span></a></li>
+<li class="toclevel-2 tocsection-18"><a href="#Battery"><span class="tocnumber">5.3</span> <span class="toctext">Battery</span></a></li>
+<li class="toclevel-2 tocsection-19"><a href="#Modules"><span class="tocnumber">5.4</span> <span class="toctext">Modules</span></a></li>
+<li class="toclevel-2 tocsection-20"><a href="#GCS"><span class="tocnumber">5.5</span> <span class="toctext">GCS</span></a>
+<ul>
+<li class="toclevel-3 tocsection-21"><a href="#Custom_Icons_Theme_Support"><span class="tocnumber">5.5.1</span> <span class="toctext">Custom Icons Theme Support</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="About">About</span></h2>
+<p>The airframe file is the most important configuration file and contains all the hardware and software settings for your airframe. It describes what hardware you have and which firmware, sensors, algorithms, etc. you want to use and also holds your configuration parameters. All gains, trims, and behavior settings are defined with standard XML elements.
+</p><p>The XML airframe configuration file is located in <tt>conf/airframes/&lt;yourairframe&gt;.xml</tt> and always begins with a &lt;!DOCTYPE airframe SYSTEM "airframe.dtd"&gt; line and should look like this
+</p>
+<table width="75%" cellpadding="0" cellspacing="0" style="background-color: #fff; border: solid 1px #000;">
+<tr>
+<td style="background-color: #f9f9f9; border: 0px; border-bottom: solid 1px #000;"> <font size="-1"><b>File:</b> conf/airframes/&lt;yourairframe&gt;.xml</font>
+</td></tr>
+<tr>
+<td>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span class="cp">&lt;!DOCTYPE airframe SYSTEM &quot;airframe.dtd&quot;&gt;</span>
+<span class="nt">&lt;airframe</span> <span class="na">name=</span><span class="s">&quot;yourairframe&quot;</span><span class="nt">&gt;</span>
+  <span class="c">&lt;!-- The airframe configuration goes here. --&gt;</span>
+<span class="nt">&lt;/airframe&gt;</span>
+</pre></div>
+</td></tr></table>
+<p><b>Also see the wiki pages for <a href="/wiki/Fixedwing_Configuration" title="Fixedwing Configuration">fixedwing specific configuration</a> and <a href="/wiki/Rotorcraft_Configuration" title="Rotorcraft Configuration">rotorcraft specific configuration</a>.</b>
+</p>
+<h2><span class="mw-headline" id="Creating_a_new_Aircraft">Creating a new Aircraft</span></h2>
+<p>While the airframe file is where you configure most aspects of your aircraft, a fully specified aircraft needs several XML configuration files:
+</p>
+<ul><li> Airframe (what this page is about)</li>
+<li> <a href="/wiki/Flight_Plans" title="Flight Plans">Flight Plan</a></li>
+<li> <a href="/wiki/Settings" title="Settings">Settings</a></li>
+<li> <a href="/wiki/Radio_Control" title="Radio Control">Radio</a> (if you use a PPM based R/C system)</li>
+<li> <a href="/wiki/Telemetry" title="Telemetry">Telemetry</a></li>
+<li> <a href="/w/index.php?title=Settings_modules&amp;action=edit&amp;redlink=1" class="new" title="Settings modules (page does not exist)">settings_modules</a></li></ul>
+<p>Each aircraft is assigned a name, unique ID and the associated configuration files in <a href="/wiki/Conf.xml" title="Conf.xml"><tt>conf/conf.xml</tt></a>. To create a new Aircraft, click new in the menu A/C in the <a href="/wiki/Paparazzi_Center" title="Paparazzi Center">Paparazzi Center</a> and select your new airframe file, etc. (or specify it by hand in <a href="/wiki/Conf.xml" title="Conf.xml"><tt>conf/conf.xml</tt></a>).
+</p>
+<h2><span class="mw-headline" id="Firmware_and_Hardware_definitions">Firmware and Hardware definitions</span></h2>
+<p>First you should specify which firmware you want to use, that is if you have a <tt><a href="/wiki/Fixedwing_Configuration" title="Fixedwing Configuration">fixedwing</a></tt> aircraft or a <tt><a href="/wiki/Rotorcraft_Configuration" title="Rotorcraft Configuration">rotorcraft</a></tt>:
+</p>
+<table width="75%" cellpadding="0" cellspacing="0" style="background-color: #fff; border: solid 1px #000;">
+<tr>
+<td style="background-color: #f9f9f9; border: 0px; border-bottom: solid 1px #000;"> <font size="-1"><b>File:</b> conf/airframes/myplane.xml</font>
+</td></tr>
+<tr>
+<td>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>  <span class="nt">&lt;firmware</span> <span class="na">name=</span><span class="s">&quot;fixedwing or rotorcraft&quot;</span><span class="nt">&gt;</span>
+     ...
+  <span class="nt">&lt;/firmware&gt;</span>
+</pre></div>
+</td></tr></table>
+<h3><span class="mw-headline" id="Select_your_Board">Select your Board</span></h3>
+<p>To specify autopilot hardware you are using and it's low-level settings you have to add a <i>target</i>-tag.
+Each <i>target</i> has two attributes, which are <i>name</i> and a corresponding <i>board</i> attribute.
+The <i>name</i> attribute is either "ap" (autopilot) or "sim/jsbsim/nps" (simulation).
+</p><p><br />
+</p>
+<table width="75%" cellpadding="0" cellspacing="0" style="background-color: #fff; border: solid 1px #000;">
+<tr>
+<td style="background-color: #f9f9f9; border: 0px; border-bottom: solid 1px #000;"> <font size="-1"><b>File:</b> conf/airframes/myplane.xml</font>
+</td></tr>
+<tr>
+<td>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>  <span class="nt">&lt;firmware</span> <span class="na">name=</span><span class="s">&quot;fixedwing or rotorcraft&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;target</span> <span class="na">name=</span><span class="s">&quot;sim&quot;</span> <span class="na">board=</span><span class="s">&quot;pc&quot;</span><span class="nt">/&gt;</span> <span class="c">&lt;!-- For simulation. --&gt;</span>
+    <span class="nt">&lt;target</span> <span class="na">name=</span><span class="s">&quot;ap&quot;</span>  <span class="na">board=</span><span class="s">&quot;lisa_m_1.0&quot;</span><span class="nt">/&gt;</span> <span class="c">&lt;!-- Select your board here --&gt;</span>
+     ...
+  <span class="nt">&lt;/firmware&gt;</span>
+</pre></div>
+</td></tr></table>
+<h4><span class="mw-headline" id="Simulation_targets">Simulation targets</span></h4>
+<p>target name="sim","jsbsim","nps"<br />
+board="pc"<br />
+</p><p>More Information at <a href="/wiki/Simulation" title="Simulation">Simulation</a>.
+</p>
+<h4><span class="mw-headline" id="Board_targets">Board targets</span></h4>
+<p>target name="ap"<br />
+board=
+"apogee_0.99",
+"apogee_1.0",
+"ardrone2",
+"booz_1.0",
+"classix",
+"hb_1.1",
+"krooz_sd",
+"lisa_l_1.0", 
+"lisa_l_1.1", 
+"lisa_m_1.0", 
+"lisa_m_2.0",
+"lisa_mx_2.0",
+"lisa_s_0.1",
+"logom_2.6",
+"navgo_1.0", 
+"sdlog_1.0", 
+"stm32f4_discovery",
+"tiny_0.99", 
+"tiny_1.1", 
+"tiny_2.1", 
+"tiny_2.11", 
+"twog_1.0", 
+"umarim_1.0",
+"umarim_lite_2.0",
+"yapa_2.0",
+</p><p>All targets can be found in /conf/boards.
+</p>
+<h4><span class="mw-headline" id="Direct_Makefile">Direct Makefile</span></h4>
+<p>Optionally you can also add a raw <a rel="nofollow" class="external text" href="http://en.wikipedia.org/wiki/Makefile">Makefile</a> section. This is only needed in very advanced setups. For example when testing newly developed hardware.
+</p>
+<h3><span class="mw-headline" id="LEDs">LEDs</span></h3>
+<p>You can configure the LEDs on the autopilot to be used for different status indicators:
+</p>
+<dl><dt> <i>SYS_TIME_LED</i></dt>
+<dd> blinks with 1Hz</dd>
+<dt> <i>AHRS_ALIGNER_LED</i></dt>
+<dd> blinks until the AHRS is aligned (gyro bias initialized) and then stays on</dd>
+<dt> <i>GPS_LED</i></dt>
+<dd> blinking if trying to get a fix, on if 3D fix</dd>
+<dt> <i>RADIO_CONTROL_LED</i></dt>
+<dd> on if RC signal is ok</dd>
+<dt> <i>BARO_LED</i>&#160;</dt>
+<dd> only on booz and navgo boards: blinks until baro offset is initialized and then stays on</dd></dl>
+<p>Depending on your board some of the LEDs on it are already assigned to some indicators by default, check the appropriate autopilot board makefile for the defaults.
+</p><p>To reconfigure the default assignment, assign the indicator to an other value. Use <i>none</i> if indicator should not be assigned to any LED.
+</p><p><br />
+</p>
+<table width="75%" cellpadding="0" cellspacing="0" style="background-color: #fff; border: solid 1px #000;">
+<tr>
+<td style="background-color: #f9f9f9; border: 0px; border-bottom: solid 1px #000;"> <font size="-1"><b>File:</b> conf/airframes/myplane.xml</font>
+</td></tr>
+<tr>
+<td>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>  <span class="nt">&lt;firmware</span> <span class="na">name=</span><span class="s">&quot;fixedwing or rotorcraft&quot;</span><span class="nt">&gt;</span>
+     ...
+     <span class="nt">&lt;configure</span> <span class="na">name=</span><span class="s">&quot;SYS_TIME_LED&quot;</span> <span class="na">value=</span><span class="s">&quot;1&quot;</span><span class="nt">/&gt;</span>
+     <span class="nt">&lt;configure</span> <span class="na">name=</span><span class="s">&quot;RADIO_CONTROL_LED&quot;</span> <span class="na">value=</span><span class="s">&quot;2&quot;</span><span class="nt">/&gt;</span>
+     <span class="nt">&lt;configure</span> <span class="na">name=</span><span class="s">&quot;GPS_LED&quot;</span> <span class="na">value=</span><span class="s">&quot;none&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;/firmware&gt;</span>
+</pre></div>
+</td></tr></table>
+<p>Beware that you can only assign <b>one</b> indicator to a LED number. So if the LED you want to use is already in use because another indicator is set to that number by default you have to disable that other indicator by setting it to <i>none</i> or reconfigure it to an other LED.
+</p>
+<h2><span class="mw-headline" id="Subsystems">Subsystems</span></h2>
+<table class="wikitable">
+
+<tr>
+<td> Since <b>v5.8</b> it is possible to safely replace <i>subsystem</i> by <i>module</i> in your airframe file. The roadmap of Paparazzi is to convert existing subsystems to <a href="/wiki/Modules" title="Modules">modules</a>.
+</td></tr></table>
+<p>Each autopilot features certain <a href="/wiki/Subsystems" title="Subsystems">subsystems</a> which need to be configured properly.
+The most important ones are described below.
+</p>
+<h3><span class="mw-headline" id="IMU">IMU</span></h3>
+<p>Add the <a href="/wiki/Subsystem/imu" title="Subsystem/imu">imu subsystem</a> with the type you are using.
+</p>
+<table width="75%" cellpadding="0" cellspacing="0" style="background-color: #fff; border: solid 1px #000;">
+<tr>
+<td style="background-color: #f9f9f9; border: 0px; border-bottom: solid 1px #000;"> <font size="-1"><b>File:</b> conf/airframes/myplane.xml</font>
+</td></tr>
+<tr>
+<td>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>  <span class="nt">&lt;firmware</span> <span class="na">name=</span><span class="s">&quot;fixedwing or rotorcraft&quot;</span><span class="nt">&gt;</span>
+     ...
+    <span class="nt">&lt;module</span> <span class="na">name=</span><span class="s">&quot;imu&quot;</span>       <span class="na">type=</span><span class="s">&quot;aspirin_v1.5&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;/firmware&gt;</span>
+</pre></div>
+</td></tr></table>
+<p>See the <a href="/wiki/Subsystem/imu" title="Subsystem/imu">imu subsystem</a> page for more details.
+Also see the <a href="/wiki/ImuCalibration" title="ImuCalibration">IMU calibration</a> page.
+</p>
+<h3><span class="mw-headline" id="AHRS">AHRS</span></h3>
+<p>The <a href="/wiki/Subsystem/ahrs" title="Subsystem/ahrs">AHRS subsystem</a> specifies which attitude estimation filter you are using, e.g. for the complementary filter:
+</p>
+<table width="75%" cellpadding="0" cellspacing="0" style="background-color: #fff; border: solid 1px #000;">
+<tr>
+<td style="background-color: #f9f9f9; border: 0px; border-bottom: solid 1px #000;"> <font size="-1"><b>File:</b> conf/airframes/myplane.xml</font>
+</td></tr>
+<tr>
+<td>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>  <span class="nt">&lt;firmware</span> <span class="na">name=</span><span class="s">&quot;fixedwing or rotorcraft&quot;</span><span class="nt">&gt;</span>
+     ...
+    <span class="nt">&lt;module</span> <span class="na">name=</span><span class="s">&quot;ahrs&quot;</span> <span class="na">type=</span><span class="s">&quot;int_cmpl_euler&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;/firmware&gt;</span>
+</pre></div>
+</td></tr></table>
+<p>All AHRS algorithms depend on an imu subsystem, except for the ahrs_infrared which depends on the infrared module.
+See the <a href="/wiki/Subsystem/ahrs" title="Subsystem/ahrs">AHRS subsystem page</a> for more details.
+</p><p>If the magnetometer should be used the <a href="/wiki/Subsystem/ahrs#Local_Magnetic_Field" title="Subsystem/ahrs">local magnetic field section</a> must be filled in.
+</p>
+<h3><span class="mw-headline" id="Radio_Control">Radio Control</span></h3>
+<p>Supported types are:
+</p>
+<ul><li> <i>ppm</i></li>
+<li> <i>spektrum</i></li>
+<li> <i>sbus</i></li>
+<li> <i>datalink</i></li></ul>
+<p>Just specify the appropriate <a href="/wiki/Subsystem/radio_control" title="Subsystem/radio control">radio control subsystem</a> in your firmware section, e.g.:
+</p>
+<table width="75%" cellpadding="0" cellspacing="0" style="background-color: #fff; border: solid 1px #000;">
+<tr>
+<td style="background-color: #f9f9f9; border: 0px; border-bottom: solid 1px #000;"> <font size="-1"><b>File:</b> conf/airframes/myplane.xml</font>
+</td></tr>
+<tr>
+<td>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>  <span class="nt">&lt;firmware</span> <span class="na">name=</span><span class="s">&quot;fixedwing or rotorcraft&quot;</span><span class="nt">&gt;</span>
+     ...
+    <span class="nt">&lt;module</span> <span class="na">name=</span><span class="s">&quot;radio_control&quot;</span>     <span class="na">type=</span><span class="s">&quot;ppm&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;/firmware&gt;</span>
+</pre></div>
+</td></tr></table>
+<h3><span class="mw-headline" id="Telemetry_.28Modem.29">Telemetry (Modem)</span></h3>
+<p>The modem protocol and baud rate must be set in both the airframe file and ground station.  Any standard baud rate can be used, with 9600 being adequate and 57600 recommended for most users to allow high speed telemetry for more detailed flight data analysis.  The actual data rate is determined by the number of messages being sent and the period of each message as defined in your <a href="/wiki/Telemetry" title="Telemetry">telemetry file</a>, e.g. <tt>conf/telemetry/default.xml</tt>.  Those wishing to experiment with "alternative" modems can reduce the number and period of each telemetry message to fit within most any bandwidth constraint.
+</p><p>The <a href="/wiki/Subsystem/telemetry" title="Subsystem/telemetry">telemetry subsystem</a> supports the following modem protocols:
+</p>
+<ul><li> Standard transparent serial (pprz) - this is compatible with all modems and can be used to connect the autopilot directly to a PC for testing without a modem.</li>
+<li> Maxstream API protocol (xbee) - compatible with all Maxstream modems including the 9XTend and Zigbee.  This protocol enables hardware addressing, allowing multiple aircraft to be managed from a single ground modem.</li></ul>
+<p>Just specify the appropriate <a href="/wiki/Subsystem/telemetry" title="Subsystem/telemetry">telemetry subsystem</a> in your firmware section. You can currently choose between the types <i>transparent</i>, <i>transparent_usb</i> and <i>xbee_api</i>.
+</p><p><b>The default baudrate is 57600 baud, see the <a href="/wiki/Subsystem/telemetry" title="Subsystem/telemetry">telemetry subsystem</a> page for more details and configuration options.</b>
+</p>
+<table width="75%" cellpadding="0" cellspacing="0" style="background-color: #fff; border: solid 1px #000;">
+<tr>
+<td style="background-color: #f9f9f9; border: 0px; border-bottom: solid 1px #000;"> <font size="-1"><b>File:</b> conf/airframes/myplane.xml</font>
+</td></tr>
+<tr>
+<td>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>  <span class="nt">&lt;firmware</span> <span class="na">name=</span><span class="s">&quot;fixedwing or rotorcraft&quot;</span><span class="nt">&gt;</span>
+     ...
+    <span class="nt">&lt;module</span> <span class="na">name=</span><span class="s">&quot;telemetry&quot;</span>     <span class="na">type=</span><span class="s">&quot;transparent&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;/firmware&gt;</span>
+</pre></div>
+</td></tr></table>
+<h3><span class="mw-headline" id="GPS">GPS</span></h3>
+<p>The serial port settings must match that of the GPS and are configured here along with the necessary files to interpret the u-blox UBX binary protocol:
+</p><p>Just specify the appropriate <a href="/wiki/Subsystem/gps" title="Subsystem/gps">gps subsystem</a> in your firmware section. You can currently choose between the types <b>ublox</b> and <b>ublox_utm</b> for the older series 4 modules which still provide a UTM message.
+</p>
+<table width="75%" cellpadding="0" cellspacing="0" style="background-color: #fff; border: solid 1px #000;">
+<tr>
+<td style="background-color: #f9f9f9; border: 0px; border-bottom: solid 1px #000;"> <font size="-1"><b>File:</b> conf/airframes/myplane.xml</font>
+</td></tr>
+<tr>
+<td>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>  <span class="nt">&lt;firmware</span> <span class="na">name=</span><span class="s">&quot;fixedwing or rotorcraft&quot;</span><span class="nt">&gt;</span>
+     ...
+    <span class="nt">&lt;module</span> <span class="na">name=</span><span class="s">&quot;gps&quot;</span>               <span class="na">type=</span><span class="s">&quot;ublox&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;/firmware&gt;</span>
+</pre></div>
+</td></tr></table>
+<p>The correct UART is already defined by default according to your board.
+The default GPS baudrate is 38400baud.
+</p><p>If you need to set different baud rates or UART see the <a href="/wiki/Subsystem/gps" title="Subsystem/gps">Subsystem/gps</a> page for the options.
+</p><p><b>Note:</b>
+</p>
+<ul><li> u-blox GPS modules are factory configured for 9600 baud, 38,400 baud is recommended along with the other required changes.  The GPS can be accessed directly through the <a href="/wiki/Tunnel" title="Tunnel">UART Tunnel</a> and <a href="/wiki/GPS#GPS_configuration_using_U-Center" title="GPS" class="mw-redirect">Configured with u-center</a></li></ul>
+<h2><span class="mw-headline" id="XML_Parameters">XML Parameters</span></h2>
+<p><b>When defining parameters you can use <a href="/wiki/Units" title="Units">automatic unit conversion</a> to conveniently set it in e.g. degrees.</b>
+</p>
+<h3><span class="mw-headline" id="Commands">Commands</span></h3>
+<p>The <b><tt>commands</tt></b> lists the abstract commands you need to control the aircraft. In a simple fixed-wing example, we have only three:
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre> <span class="nt">&lt;commands&gt;</span>
+  <span class="nt">&lt;axis</span> <span class="na">name=</span><span class="s">&quot;THROTTLE&quot;</span> <span class="na">failsafe_value=</span><span class="s">&quot;0&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;axis</span> <span class="na">name=</span><span class="s">&quot;ROLL&quot;</span>     <span class="na">failsafe_value=</span><span class="s">&quot;0&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;axis</span> <span class="na">name=</span><span class="s">&quot;PITCH&quot;</span>    <span class="na">failsafe_value=</span><span class="s">&quot;0&quot;</span><span class="nt">/&gt;</span>
+ <span class="nt">&lt;/commands&gt;</span>
+</pre></div>
+<p>For rotorcraft, it is usually:
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre> <span class="nt">&lt;commands&gt;</span>
+  <span class="nt">&lt;axis</span> <span class="na">name=</span><span class="s">&quot;PITCH&quot;</span>    <span class="na">failsafe_value=</span><span class="s">&quot;0&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;axis</span> <span class="na">name=</span><span class="s">&quot;ROLL&quot;</span>     <span class="na">failsafe_value=</span><span class="s">&quot;0&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;axis</span> <span class="na">name=</span><span class="s">&quot;YAW&quot;</span>      <span class="na">failsafe_value=</span><span class="s">&quot;0&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;axis</span> <span class="na">name=</span><span class="s">&quot;THRUST&quot;</span>   <span class="na">failsafe_value=</span><span class="s">&quot;0&quot;</span><span class="nt">/&gt;</span>
+ <span class="nt">&lt;/commands&gt;</span>
+</pre></div>
+<p>Each command is also associated with a failsafe value which will be used if no controller is active, for example during initialization of the autopilot board. The range of these values is [-9600:9600]. For <tt>"THROTTLE"</tt>, the range is [0, 9600] and in the corresponding <b><tt>servo</tt></b> definition the <b><tt>neutral</tt></b> and <b><tt>min</tt></b> are usually the same for PWM based servos (see below). Note that these commands do not necessarily match the servo actuators. For example, the <tt>"ROLL"</tt> command is typically linked to two aileron actuators.
+</p>
+<h3><span class="mw-headline" id="Servos">Servos</span></h3>
+<p>The above commands get translated to the <b><tt>servos</tt></b> here. In the example below we use two elevons and a motor. (<a rel="nofollow" class="external text" href="http://en.wikipedia.org/wiki/Elevon"><i>Elevons</i></a> are surfaces used for both pitch and roll as on a flying wing.) These servos are listed in the <b><tt>servos</tt></b> section:
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre> <span class="nt">&lt;servos&gt;</span>
+  <span class="nt">&lt;servo</span> <span class="na">name=</span><span class="s">&quot;THROTTLE&quot;</span>         <span class="na">no=</span><span class="s">&quot;0&quot;</span> <span class="na">min=</span><span class="s">&quot;1000&quot;</span> <span class="na">neutral=</span><span class="s">&quot;1000&quot;</span> <span class="na">max=</span><span class="s">&quot;2000&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;servo</span> <span class="na">name=</span><span class="s">&quot;ELEVON_LEFTSIDE&quot;</span>  <span class="na">no=</span><span class="s">&quot;1&quot;</span> <span class="na">min=</span><span class="s">&quot;2000&quot;</span> <span class="na">neutral=</span><span class="s">&quot;1500&quot;</span> <span class="na">max=</span><span class="s">&quot;1000&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;servo</span> <span class="na">name=</span><span class="s">&quot;ELEVON_RIGHTSIDE&quot;</span> <span class="na">no=</span><span class="s">&quot;2&quot;</span> <span class="na">min=</span><span class="s">&quot;1000&quot;</span> <span class="na">neutral=</span><span class="s">&quot;1500&quot;</span> <span class="na">max=</span><span class="s">&quot;2000&quot;</span><span class="nt">/&gt;</span>
+ <span class="nt">&lt;/servos&gt;</span>
+</pre></div>
+<p>Names are associated to the corresponding <b>real physical connector</b> to which a servo is connected <b>on the autopilot board</b>. For example no="2" means connector two on the board. Also the servo neutral value, total range and direction are defined.  Min/max/neutral values are expressed in microseconds. The direction of travel can be reversed by exchanging min with max (as in <tt>"ELEVON_LEFTSIDE"</tt>, above).  The <i>standard</i> travel for a hobby servo is 1000µs - 2000µs with a 1500µs neutral. Trim can be added by changing this neutral value. Absolute servo travel limits can be increased or reduced with the min/max values.  The <tt>"THROTTLE"</tt> servo typically has the same value for the <b><tt>neutral</tt></b> and <b><tt>min</tt></b>.
+</p><p>The attribute <b><tt>driver</tt></b> for <b><tt>servos</tt></b> node tells which actuators' driver is associated to the listed servos. After the version <b>v4.9_devel-164-gdb0d004</b>, multiple servos sections can be defined and used together, if the correct <a href="/wiki/Subsystem/actuators" title="Subsystem/actuators"> actuators subsystems</a> are loaded. Some boards are automatically loading a default driver, the one used when no <b><tt>driver</tt></b> attribute is specified.
+</p><p>Note the following important tips:
+</p>
+<ul><li> Reverse the servo direction by exchanging min/max</li>
+<li> Trim should always be adjusted mechanically if possible to avoid asymmetrical travel</li>
+<li> Any reduction of the total travel range should be done mechanically to maintain precision</li>
+<li> Many servos will respond well to values slightly outside the normal 1000-2000µs range but experiment carefully as the servo may not operate reliably outside this range and may even suffer permanent damage.</li>
+<li> Board connector numbering starts with <b>zero (0)</b> not with one</li>
+<li> Servos are also known under the synonym <b>actuators</b></li>
+<li> (after version <b>v4.9_devel-164-gdb0d004</b>) For I2C based motor speed control using the <a href="/wiki/Rotorcraft_Configuration#Motor_Mixing" title="Rotorcraft Configuration">motor mixing</a>:
+<ul><li> min: command to stop the motor</li>
+<li> neutral: motor idle command</li>
+<li> max: max thrust command</li></ul></li></ul>
+<p>The <b><tt>servos</tt></b> are then linked to the commands in the <b><tt>command_laws</tt></b> section:
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre> <span class="nt">&lt;command_laws&gt;</span>
+  <span class="nt">&lt;let</span> <span class="na">var=</span><span class="s">&quot;aileron&quot;</span>            <span class="na">value=</span><span class="s">&quot;@ROLL  * 0.3&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;let</span> <span class="na">var=</span><span class="s">&quot;elevator&quot;</span>           <span class="na">value=</span><span class="s">&quot;@PITCH * 0.7&quot;</span><span class="nt">/&gt;</span>  
+  <span class="nt">&lt;set</span> <span class="na">servo=</span><span class="s">&quot;THROTTLE&quot;</span>         <span class="na">value=</span><span class="s">&quot;@THROTTLE&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;set</span> <span class="na">servo=</span><span class="s">&quot;ELEVON_LEFTSIDE&quot;</span>  <span class="na">value=</span><span class="s">&quot;$elevator + $aileron&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;set</span> <span class="na">servo=</span><span class="s">&quot;ELEVON_RIGHTSIDE&quot;</span> <span class="na">value=</span><span class="s">&quot;$elevator - $aileron&quot;</span><span class="nt">/&gt;</span>
+ <span class="nt">&lt;/command_laws&gt;</span>
+</pre></div>
+<div class="thumb tright"><div class="thumbinner" style="width:302px;"><a href="/wiki/File:Airframe_sign_conventions.jpg" class="image"><img alt="" src="/w/images/thumb/8/8f/Airframe_sign_conventions.jpg/300px-Airframe_sign_conventions.jpg" width="300" height="225" class="thumbimage" srcset="/w/images/thumb/8/8f/Airframe_sign_conventions.jpg/450px-Airframe_sign_conventions.jpg 1.5x, /w/images/thumb/8/8f/Airframe_sign_conventions.jpg/600px-Airframe_sign_conventions.jpg 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:Airframe_sign_conventions.jpg" class="internal" title="Enlarge"></a></div>Sign conventions for flight dynamics</div></div></div>
+<p>where the third line is the simplest: the throttle servo value equals throttle command value. The other lines define and control the pitch/roll mixing.  Elevon values are computed with a combination of two commands, <b>ROLL</b> and <b>PITCH</b>. This <i>mixer</i> is defined with two intermediate variables <b>aileron</b> and <b>elevator</b> introduced with the <b><tt>let</tt></b> element.  The <b>@</b> symbol is used to reference a command value in the <b><tt>value</tt></b> attribute of the <b><tt>set</tt></b> and <b><tt>let</tt></b> elements.  In the above example, the servos are limited to +/- 70% of their full travel for pitch and 30% for roll, only in combination can the servos reach 100% deflection.  Note that these numbers <i>should add up 100% or more, never less</i>.  For example, you may want 100% travel available for pitch - this means if a roll is commanded along with maximum pitch only one servo will respond to the roll command as the other has already reached its mechanical limit.  If you find after tuning that these numbers add to less than 100% consider reducing the surface travel mechanically.
+</p><p><br />
+Note that the signs used in the description follow the standard convention.
+</p><p>After <b>v4.9_devel-164-gdb0d004</b>, the <b><tt>command_laws</tt></b> section is mandatory for both fixedwing and rotorcraft firmwares, only for fixedwing otherwise.
+</p>
+<h3><span class="mw-headline" id="Battery">Battery</span></h3>
+<p>This section gives characteristics for monitoring the main power battery.
+</p><p><b><tt>MILLIAMP_AT_FULL_THROTTLE</tt></b> represents the actual current (in mA) when full THROTTLE is applied. Note that when flying the current typically is significantly lower than in static tests at home on your workbench. <b><tt>MILLIAMP_AT_FULL_THROTTLE</tt></b> is used to compute the <tt>energy</tt> value of the <tt>BAT</tt> message when no <a href="/wiki/Current_sensor" title="Current sensor" class="mw-redirect">Current sensor</a> is mounted in the airframe. This value can also be used in flight plans. For example, if at full throttle your motor consumes 10 Amps, use a value of 10000. You can "tweak" this number after a few flights to match the capacity of your battery. If upon landing your bat.energy messages says that you used 2500 mAh while the energy recharged into the battery is only 2000 mAh, you could reduce the <b><tt>MILLIAMP_AT_FULL_THROTTLE</tt></b> value by 20% to match your in-flight current consumption. This tweaking is most precise if you fly full throttle only (respectively no throttle to glide down again).
+</p><p>The <b><tt>CURRENT_ESTIMATION_NONLINEARITY</tt></b> can be added to tweak the energy estimation for non full throttle cruise. As the current consumption is nonlinear, at 50% throttle it is likely to be substantially less than 50%. A superellipse is used to approximate this nonlinearity. The default setting is 1.2 and is used if the <b><tt>CURRENT_ESTIMATION_NONLINEARITY</tt></b> is not defined in your airframe file. A value 1 corresponds to linear behaviour, 1.5 corresponds to strong nonlinearity. The tweaking is done same as described above for <b><tt>MILLIAMP_AT_FULL_THROTTLE</tt></b>, but only partial throttle (cruise throttle) should be applied in flight.
+</p><p>If both <b><tt>MILLIAMP_AT_FULL_THROTTLE</tt></b> and <b><tt>CURRENT_ESTIMATION_NONLINEARITY</tt></b> are tweaked well, you get precise energy estimations with less than 5% error independent of your flight pattern without even requiring a <a href="/wiki/Current_sensor" title="Current sensor" class="mw-redirect">current sensor</a>.
+</p><p>The <b><tt>CATASTROPHIC_BAT_LEVEL</tt></b> (was previously <b><tt>LOW_BATTERY</tt></b>) value defines the voltage at which the autopilot will lock the throttle at 0% in autonomous mode (kill_throttle mode). This value is also used by the ground server to issue a <b>CATASTROPHIC</b> alarm message on the bus (this message will be displayed in the console of the GCS).  <b><tt>CRITIC</tt></b> and <b><tt>LOW</tt></b> values will also used as threshold for <b>CRITIC</b> and <b>WARNING</b> alarms. They are optional and the respective defaults are 10.0 and 10.5V.
+</p><p>The <b><tt>MAX_BAT_LEVEL</tt></b> may be specified to improve the display of the battery gauge in the strip or in "papgets". Note that this definition is optional, with a default value of 12.5V.
+</p><p><br />
+</p>
+<table width="75%" cellpadding="0" cellspacing="0" style="background-color: #fff; border: solid 1px #000;">
+<tr>
+<td style="background-color: #f9f9f9; border: 0px; border-bottom: solid 1px #000;"> <font size="-1"><b>File:</b> conf/airframes/myplane.xml</font>
+</td></tr>
+<tr>
+<td>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>  <span class="nt">&lt;firmware</span> <span class="na">name=</span><span class="s">&quot;fixedwing&quot;</span><span class="nt">&gt;</span>
+    ...
+    <span class="nt">&lt;define</span> <span class="na">name=</span><span class="s">&quot;ADC_CHANNEL_VSUPPLY&quot;</span> <span class="na">value=</span><span class="s">&quot;ADC_4&quot;</span> <span class="nt">/&gt;</span> 
+  <span class="nt">&lt;/firmware&gt;</span>
+  ...
+  <span class="nt">&lt;section</span> <span class="na">name=</span><span class="s">&quot;BAT&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;define</span> <span class="na">name=</span><span class="s">&quot;MILLIAMP_AT_FULL_THROTTLE&quot;</span> <span class="na">value=</span><span class="s">&quot;12000&quot;</span> <span class="na">unit=</span><span class="s">&quot;mA&quot;</span> <span class="nt">/&gt;</span>
+    <span class="nt">&lt;define</span> <span class="na">name=</span><span class="s">&quot;CATASTROPHIC_BAT_LEVEL&quot;</span> <span class="na">value=</span><span class="s">&quot;6.0&quot;</span> <span class="na">unit=</span><span class="s">&quot;V&quot;</span><span class="nt">/&gt;</span>
+    <span class="nt">&lt;define</span> <span class="na">name=</span><span class="s">&quot;CRITIC_BAT_LEVEL&quot;</span> <span class="na">value=</span><span class="s">&quot;6.5&quot;</span> <span class="na">unit=</span><span class="s">&quot;V&quot;</span><span class="nt">/&gt;</span>
+    <span class="nt">&lt;define</span> <span class="na">name=</span><span class="s">&quot;LOW_BAT_LEVEL&quot;</span> <span class="na">value=</span><span class="s">&quot;7.0&quot;</span> <span class="na">unit=</span><span class="s">&quot;V&quot;</span><span class="nt">/&gt;</span>
+    <span class="nt">&lt;define</span> <span class="na">name=</span><span class="s">&quot;MAX_BAT_LEVEL&quot;</span> <span class="na">value=</span><span class="s">&quot;8.4&quot;</span> <span class="na">unit=</span><span class="s">&quot;V&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;/section&gt;</span>
+</pre></div>
+</td></tr></table>
+<p>The conversion of ADC measurements to Voltage is already defined for the different autopilot boards, if you need to override these defaults you can use the <b><tt>VoltageOfAdc(adc)</tt></b> define and also specify offsets or anything else you might need, e.g.:
+</p><p><br />
+</p>
+<table width="75%" cellpadding="0" cellspacing="0" style="background-color: #fff; border: solid 1px #000;">
+<tr>
+<td style="background-color: #f9f9f9; border: 0px; border-bottom: solid 1px #000;"> <font size="-1"><b>File:</b> conf/airframes/myplane.xml</font>
+</td></tr>
+<tr>
+<td>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>  <span class="nt">&lt;section</span> <span class="na">name=</span><span class="s">&quot;BAT&quot;</span><span class="nt">&gt;</span>
+    ...
+    <span class="nt">&lt;define</span> <span class="na">name=</span><span class="s">&quot;VOLTAGE_ADC_SCALE&quot;</span> <span class="na">value=</span><span class="s">&quot;0.0177531&quot;</span><span class="nt">/&gt;</span>
+    <span class="nt">&lt;define</span> <span class="na">name=</span><span class="s">&quot;VOLTAGE_OFFSET&quot;</span> <span class="na">value=</span><span class="s">&quot;0.5&quot;</span> <span class="na">unit=</span><span class="s">&quot;V&quot;</span><span class="nt">/&gt;</span>
+    <span class="nt">&lt;define</span> <span class="na">name=</span><span class="s">&quot;VoltageOfAdc(adc)&quot;</span> <span class="na">value=</span><span class="s">&quot;(VOLTAGE_ADC_SCALE * adc + VOLTAGE_OFFSET)&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;/section&gt;</span>
+</pre></div>
+</td></tr></table>
+<p>Calculating <b>VOLTAGE_ADC_SCALE</b>:
+</p><p><img class="mwe-math-fallback-image-inline tex" alt="VOLTAGE\_ADC\_SCALE=\frac{Vref}{ADCresolution-1}\div\frac{R2}{R1+R2}" src="/w/images/math/a/6/b/a6b5b7c6b5fa47acd935addd8316b81b.png" />
+</p>
+<ul><li>Vref - Voltage reference for the ADC (will be 3.3V in most cases, can be found in mcu/adc datasheet)</li>
+<li>ADCresolution - ADC bit depth (e.g. 2^12=4096 for a 12 bit ADC)</li>
+<li>R1 - Resistor between battery and ADC input pin of MCU</li>
+<li>R2 - Resistor between ADC input pin of the MCU and GND</li></ul>
+<p>It is also a good idea to measure the actual voltage of the battery with a precision voltage meter, compare it with the calculated value from the autopilot (e.g. via <a href="/wiki/Paparazzi_Center#Messages" title="Paparazzi Center">Paparazzi_Center#Messages</a>) and edit the vales for ADC scaling. Since the resistors have a tolerance, this can fine tune the measurement.
+</p>
+<h3><span class="mw-headline" id="Modules">Modules</span></h3>
+<p>The <a href="/wiki/Modules" title="Modules">modules</a> allow to add new code in a flexible way with initialisation, periodic and event functions without modifying the main AP loop.
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre> <span class="nt">&lt;modules</span> <span class="na">main_freq=</span><span class="s">&quot;60&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;load</span> <span class="na">name=</span><span class="s">&quot;demo_module.xml&quot;</span><span class="nt">/&gt;</span>
+ <span class="nt">&lt;/modules&gt;</span>
+</pre></div>
+<ul><li> The main_freq parameter (in Hz) allows to specify the frequency of the main loop. Default is 60 Hz</li></ul>
+<table class="wikitable">
+
+<tr>
+<td> Since <b>v5.8</b> it is possible to safely replace <i>subsystem</i> by <i>module</i> in your airframe file. It is therefore also possible to use the modules the same way subsystems used to be (i.e. as children of the <i>firmware</i> node and not only the <i>modules</i> node as presented above. The roadmap of Paparazzi is to convert existing subsystems to <a href="/wiki/Modules" title="Modules">modules</a>.
+</td></tr></table>
+<table class="wikitable">
+
+<tr>
+<td> Starting from <b>v5.12</b> the <i>modules</i> element will gradually be phased out. Instead, the modules should be added inside the <i>firmware</i> tags of the airframe file:
+</td></tr></table>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>  <span class="nt">&lt;firmware</span> <span class="na">name=</span><span class="s">&quot;fixedwing or rotorcraft&quot;</span><span class="nt">&gt;</span>
+     ...
+    <span class="nt">&lt;module</span> <span class="na">name=</span><span class="s">&quot;demo_module&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;/firmware&gt;</span>
+</pre></div>
+<p>Additional modules can also be added from the <a href="/wiki/Flight_Plans#Modules" title="Flight Plans">flight plan</a>.
+</p>
+<h3><span class="mw-headline" id="GCS">GCS</span></h3>
+<div class="thumb tright"><div class="thumbinner" style="width:302px;"><a href="/wiki/File:Ac_icon_multi_uav.png" class="image"><img alt="" src="/w/images/thumb/3/34/Ac_icon_multi_uav.png/300px-Ac_icon_multi_uav.png" width="300" height="226" class="thumbimage" srcset="/w/images/thumb/3/34/Ac_icon_multi_uav.png/450px-Ac_icon_multi_uav.png 1.5x, /w/images/thumb/3/34/Ac_icon_multi_uav.png/600px-Ac_icon_multi_uav.png 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:Ac_icon_multi_uav.png" class="internal" title="Enlarge"></a></div>Various A/C icons demonstrated on a multi UAV simulation session</div></div></div>
+<div class="thumb tright"><div class="thumbinner" style="width:302px;"><a href="/wiki/File:Icons_Theme_Default.png" class="image"><img alt="" src="/w/images/thumb/3/3d/Icons_Theme_Default.png/300px-Icons_Theme_Default.png" width="300" height="209" class="thumbimage" srcset="/w/images/thumb/3/3d/Icons_Theme_Default.png/450px-Icons_Theme_Default.png 1.5x, /w/images/thumb/3/3d/Icons_Theme_Default.png/600px-Icons_Theme_Default.png 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:Icons_Theme_Default.png" class="internal" title="Enlarge"></a></div>Default Theme</div></div></div>
+<div class="thumb tright"><div class="thumbinner" style="width:302px;"><a href="/wiki/File:Icons_Theme_Flat.png" class="image"><img alt="" src="/w/images/thumb/b/b6/Icons_Theme_Flat.png/300px-Icons_Theme_Flat.png" width="300" height="208" class="thumbimage" srcset="/w/images/thumb/b/b6/Icons_Theme_Flat.png/450px-Icons_Theme_Flat.png 1.5x, /w/images/thumb/b/b6/Icons_Theme_Flat.png/600px-Icons_Theme_Flat.png 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:Icons_Theme_Flat.png" class="internal" title="Enlarge"></a></div>Flat Theme</div></div></div>
+<p>Use this <b>optional</b> section to help customize parts of the GCS for a specific airframe:
+</p>
+<table width="75%" cellpadding="0" cellspacing="0" style="background-color: #fff; border: solid 1px #000;">
+<tr>
+<td style="background-color: #f9f9f9; border: 0px; border-bottom: solid 1px #000;"> <font size="-1"><b>File:</b> conf/airframes/myplane.xml</font>
+</td></tr>
+<tr>
+<td>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>  <span class="nt">&lt;section</span> <span class="na">name=</span><span class="s">&quot;GCS&quot;</span><span class="nt">&gt;</span>
+    ...
+    <span class="nt">&lt;define</span> <span class="na">name=</span><span class="s">&quot;ICONS_THEME&quot;</span> <span class="na">value=</span><span class="s">&quot;flat_theme&quot;</span><span class="nt">/&gt;</span>
+    <span class="nt">&lt;define</span> <span class="na">name=</span><span class="s">&quot;ALT_SHIFT_PLUS_PLUS&quot;</span> <span class="na">value=</span><span class="s">&quot;30&quot;</span><span class="nt">/&gt;</span>
+    <span class="nt">&lt;define</span> <span class="na">name=</span><span class="s">&quot;ALT_SHIFT_PLUS&quot;</span> <span class="na">value=</span><span class="s">&quot;5&quot;</span><span class="nt">/&gt;</span>
+    <span class="nt">&lt;define</span> <span class="na">name=</span><span class="s">&quot;ALT_SHIFT_MINUS&quot;</span> <span class="na">value=</span><span class="s">&quot;-5&quot;</span><span class="nt">/&gt;</span>
+    <span class="nt">&lt;define</span> <span class="na">name=</span><span class="s">&quot;SPEECH_NAME&quot;</span> <span class="na">value=</span><span class="s">&quot;Quad&quot;</span><span class="nt">/&gt;</span>
+    <span class="nt">&lt;define</span> <span class="na">name=</span><span class="s">&quot;AC_ICON&quot;</span> <span class="na">value=</span><span class="s">&quot;flyingwing&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;/section&gt;</span>
+</pre></div>
+</td></tr></table>
+<ul><li> <tt>ICONS_THEME</tt> can be used to define an alternate/custom GCS icons theme for a given aircraft The <b>flat_theme</b> is one example of an alternate set of GCS icons.</li>
+<li> <tt>ALT_SHIFT_PLUS_PLUS</tt> sets the number of metres the target altitude will change when the double up arrow button is pressed on the <a href="/wiki/GCS#Strips" title="GCS">strip</a></li>
+<li> <tt>ALT_SHIFT_PLUS</tt> sets the number of metres the target altitude will change when the up arrow button is pressed on the <a href="/wiki/GCS#Strips" title="GCS">strip</a></li>
+<li> <tt>ALT_SHIFT_MINUS</tt> sets the number of metres the target altitude will change when the down arrow button is pressed on the <a href="/wiki/GCS#Strips" title="GCS">strip</a></li>
+<li> <tt>SPEECH_NAME</tt> a string ([a-zA-Z0-9_]) that will be used in place of the aircraft name specified in <tt>conf.xml</tt> for the <a href="/wiki/Speech" title="Speech">speech</a> and <a href="/wiki/GCS#Alarms" title="GCS">alarms</a> functionality. Set this to "_" to prevent the speech function from saying the aircraft name. Useful if your aircraft name takes a long time to say (i.e. "UAV1-A_with_spektrum" can be shortened to "Plane").</li>
+<li> <tt>AC_ICON</tt> can be used to define the vehicle icon (or overwrite the default icon) that shows up on the 2D-map of the GCS. Available values are: <tt>flyingwing</tt> , <tt>fixedwing</tt> , <tt>rotorcraft</tt> , <tt>quadrotor</tt> , <tt>hexarotor</tt> , <tt>octorotor</tt> , <tt>quadrotor_x</tt> , <tt>hexarotor_x</tt> , <tt>octorotor_x</tt> , <tt>home</tt>.</li></ul>
+<h4><span class="mw-headline" id="Custom_Icons_Theme_Support">Custom Icons Theme Support</span></h4>
+<p>A custom icons theme is supported through the use of the <b>ICONS_THEME</b> attribute. Set the <b>ICONS_THEME</b> attribute <i>value</i> to the path of your custom icons theme directory and the given aircraft will now display your custom icons. Note that the path is relative to the default GCS icons path root: <i>$PAPARAZZI_HOME/data/pictures/gcs_icons</i>
+</p><p><br />
+</p>
+<table width="75%" cellpadding="0" cellspacing="0" style="background-color: #fff; border: solid 1px #000;">
+<tr>
+<td style="background-color: #f9f9f9; border: 0px; border-bottom: solid 1px #000;"> <font size="-1"><b>File:</b> code snippet</font>
+</td></tr>
+<tr>
+<td>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>  <span class="nt">&lt;section</span> <span class="na">name=</span><span class="s">&quot;GCS&quot;</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;define</span> <span class="na">name=</span><span class="s">&quot;ICONS_THEME&quot;</span> <span class="na">value=</span><span class="s">&quot;myawesome_icons&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;/section&gt;</span>
+</pre></div>
+</td></tr></table>
+<p>The directory that contains your custom icons, in this example named <i>myawesome_icons</i>, is located at <i>$PAPARAZZI_HOME/data/pictures/gcs_icons</i>.
+</p>
+<!-- 
+NewPP limit report
+Cached time: 20200219100119
+Cache expiry: 21600
+Dynamic content: true
+CPU time usage: 0.150 seconds
+Real time usage: 0.214 seconds
+Preprocessor visited node count: 356/1000000
+Preprocessor generated node count: 914/1000000
+Post‐expand include size: 3787/2097152 bytes
+Template argument size: 797/2097152 bytes
+Highest expansion depth: 3/40
+Expensive parser function count: 0/100
+-->
+
+<!-- 
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   97.325      1 - -total
+ 85.46%   83.175     13 - Template:Box_Code
+-->
+
+<!-- Saved in parser cache with key pprzwiki_mediawiki-wiki_:pcache:idhash:1529-0!*!0!!en!5!*!math=0 and timestamp 20200219100119 and revision id 24115
+ -->
+</div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="http://wiki.paparazziuav.org/w/index.php?title=Airframe_Configuration&amp;oldid=24115">http://wiki.paparazziuav.org/w/index.php?title=Airframe_Configuration&amp;oldid=24115</a>"					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/wiki/Category:User_Documentation" title="Category:User Documentation">User Documentation</a></li><li><a href="/wiki/Category:Airframe_Configuration" title="Category:Airframe Configuration">Airframe Configuration</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Airframe+Configuration" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="/wiki/Airframe_Configuration"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+															<li  id="ca-talk"><span><a href="/wiki/Talk:Airframe_Configuration"  title="Discussion about the content page [t]" accesskey="t" rel="discussion">Discussion</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label">
+							<span>Variants</span><a href="#"></a>
+						</h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="/wiki/Airframe_Configuration" >Read</a></span></li>
+															<li id="ca-viewsource"><span><a href="/w/index.php?title=Airframe_Configuration&amp;action=edit"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=Airframe_Configuration&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="/w/index.php" id="searchform">
+							<div id="simpleSearch">
+							<input type="search" name="search" placeholder="Search" title="Search PaparazziUAV [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-Navigation' aria-labelledby='p-Navigation-label'>
+			<h3 id='p-Navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-Home"><a href="/wiki/Main_Page">Home</a></li><li id="n-Hardware"><a href="/wiki/Hardware">Hardware</a></li><li id="n-Software"><a href="/wiki/Software">Software</a></li><li id="n-FAQ"><a href="/wiki/FAQ">FAQ</a></li><li id="n-Downloads"><a href="/wiki/Downloads">Downloads</a></li><li id="n-Remembering-Hecto"><a href="/wiki/Hecto">Remembering Hecto</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Communication' aria-labelledby='p-Communication-label'>
+			<h3 id='p-Communication-label'>Communication</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-Mailing-list"><a href="http://lists.paparazziuav.org" rel="nofollow">Mailing list</a></li><li id="n-Gitter-chat"><a href="https://gitter.im/paparazzi/discuss" rel="nofollow">Gitter chat</a></li><li id="n-Contact"><a href="/wiki/Contact">Contact</a></li><li id="n-Wiki-account"><a href="/wiki/Account">Wiki account</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Development' aria-labelledby='p-Development-label'>
+			<h3 id='p-Development-label'>Development</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-How-to-contribute"><a href="/wiki/Contributing">How to contribute</a></li><li id="n-Developer-Guide"><a href="/wiki/Developer_Guide">Developer Guide</a></li><li id="n-Doxygen-docs"><a href="http://docs.paparazziuav.org" rel="nofollow">Doxygen docs</a></li><li id="n-Git-repository"><a href="http://github.com/paparazzi/paparazzi" rel="nofollow">Git repository</a></li><li id="n-Build-tests"><a href="/wiki/Builds">Build tests</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Wiki_tools' aria-labelledby='p-Wiki_tools-label'>
+			<h3 id='p-Wiki_tools-label'>Wiki tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li><li id="n-Editing-Help"><a href="/wiki/Help:Editing">Editing Help</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-coll-print_export' aria-labelledby='p-coll-print_export-label'>
+			<h3 id='p-coll-print_export-label'>Print/export</h3>
+
+			<div class="body">
+									<ul>
+						<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Airframe+Configuration">Create a book</a></li><li id="coll-download-as-rl"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Airframe+Configuration&amp;returnto=Airframe+Configuration&amp;oldid=24115&amp;writer=rl">Download as PDF</a></li><li id="t-print"><a href="/w/index.php?title=Airframe_Configuration&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Airframe_Configuration" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Airframe_Configuration" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Airframe_Configuration&amp;oldid=24115" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Airframe_Configuration&amp;action=info" title="More information about this page">Page information</a></li>					</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 24 September 2018, at 05:34.</li>
+											<li id="footer-info-copyright">Content is available under <a class="external" rel="nofollow" href="http://www.gnu.org/copyleft/fdl.html">GNU Free Documentation License 1.3 or later</a> unless otherwise noted.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="/wiki/PaparazziUAV:Privacy_policy" title="PaparazziUAV:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/wiki/PaparazziUAV:About" title="PaparazziUAV:About">About PaparazziUAV</a></li>
+											<li id="footer-places-disclaimer"><a href="/wiki/PaparazziUAV:General_disclaimer" title="PaparazziUAV:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-copyrightico">
+							<a href="http://www.gnu.org/copyleft/fdl.html"><img src="/w/resources/assets/licenses/gnu-fdl.png" alt="GNU Free Documentation License 1.3 or later" width="88" height="31"/></a>						</li>
+											<li id="footer-poweredbyico">
+							<a href="//www.mediawiki.org/"><img src="/w/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/w/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /w/resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>						</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.state({"user":"ready","user.groups":"ready"});mw.loader.load(["mediawiki.toc","ext.categoryTree","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"]);});</script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-39710697-1', 'auto');
+  ga('set', 'anonymizeIp', true);
+  ga('send', 'pageview');
+
+</script>
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://stat.paparazziuav.org/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", "1"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Piwik Code -->
+
+<!-- Piwik Image Tracker -->
+<noscript><img src="https://stat.paparazziuav.org/piwik.php?idsite=1&amp;rec=1" style="border:0" alt="" /></noscript>
+<!-- End Piwik --><script>
+  ((window.gitter = {}).chat = {}).options = {
+    room: 'paparazzi/discuss'
+  };
+</script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":69});});</script>
+	</body>
+</html>

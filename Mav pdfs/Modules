@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8"/>
+<title>Modules - PaparazziUAV</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Modules","wgTitle":"Modules","wgCurRevisionId":21265,"wgRevisionId":21265,"wgArticleId":2203,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Developer Documentation","Modules"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Modules","wgRelevantArticleId":2203,"wgRequestId":"b115411eba084da815a29f8a","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":true,"publish":true},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.categoryTree.css%7Cext.pygments%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="generator" content="MediaWiki 1.27.0"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="PaparazziUAV (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//wiki.paparazziuav.org/w/api.php?action=rsd"/>
+<link rel="copyright" href="http://www.gnu.org/copyleft/fdl.html"/>
+<link rel="alternate" type="application/atom+xml" title="PaparazziUAV Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Modules rootpage-Modules skin-vector action-view">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<div class="mw-indicators">
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">Modules</h1>
+									<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From PaparazziUAV</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div style="float:right; clear:right; margin-left:1ex; border: 1px solid gray; padding: 0.7ex;" class="CategoryTreeTag" data-ct-mode="10" data-ct-options="{&quot;mode&quot;:10,&quot;hideprefix&quot;:20,&quot;showcount&quot;:false,&quot;namespaces&quot;:false}"><div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="Modules" title="collapse" data-ct-loaded="1" data-ct-state="expanded">▼</span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/wiki/Category:Modules">Modules</a></div>
+		<div class="CategoryTreeChildren" style="display:block"><div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/wiki/ArduIMU">ArduIMU</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/wiki/Module/ADC_generic">Module/ADC generic</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/wiki/Module/Aeroprobe_OTF">Module/Aeroprobe OTF</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/wiki/Module/Airspeed_ETS">Module/Airspeed ETS</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/wiki/Module/AOA_adc">Module/AOA adc</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/wiki/Module/Bosch_BMP085">Module/Bosch BMP085</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/wiki/Module/collective_tracking_control">Module/collective tracking control</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/wiki/Module/FlightBenchmark">Module/FlightBenchmark</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/wiki/Module/Freescale_MPL3115A2">Module/Freescale MPL3115A2</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/wiki/Module/GPS_UBlox_UCenter">Module/GPS UBlox UCenter</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/wiki/Module/guidance_vector_field">Module/guidance vector field</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/wiki/Module/Honeywell_HIH-4030">Module/Honeywell HIH-4030</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/wiki/Module/Hygrosens_TEMOD-I2C-R1">Module/Hygrosens TEMOD-I2C-R1</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/wiki/Module/infrared">Module/infrared</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/wiki/Module/IST_DigiPicco">Module/IST DigiPicco</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/wiki/Module/LM75">Module/LM75</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/wiki/Module/Mag_HMC58xx">Module/Mag HMC58xx</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/wiki/Module/Meas_Spec_MS5611_I2C">Module/Meas Spec MS5611 I2C</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/wiki/Module/Melexis_MLX90614">Module/Melexis MLX90614</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/wiki/Module/rl_obstacle_avoidance">Module/rl obstacle avoidance</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/wiki/Module/Rotorcraft_cam">Module/Rotorcraft cam</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/wiki/Module/Sensirion_SHT25">Module/Sensirion SHT25</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/wiki/Module/Sensirion_SHT75">Module/Sensirion SHT75</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/wiki/Module/Servo_switch">Module/Servo switch</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/wiki/Module/System_monitor">Module/System monitor</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/wiki/Module/TI_TMP102">Module/TI TMP102</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/wiki/Module/TronSens_HTM_B71">Module/TronSens HTM B71</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/wiki/Module/VTI_SCP1000_I2C">Module/VTI SCP1000 I2C</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/wiki/Module/VTI_SCP1000_SPI">Module/VTI SCP1000 SPI</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/wiki/Modules">Modules</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/wiki/Modules_list">Modules list</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/wiki/MultiUAV">MultiUAV</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/wiki/Openlog">Openlog</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/wiki/Pan_Tilt_Camera">Pan Tilt Camera</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/wiki/SDLogger_SPI_Direct">SDLogger SPI Direct</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/wiki/Sensors/AMSYS">Sensors/AMSYS</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		</div></div>
+		</div>
+<p>The modules allow to add new code in a flexible way with initialisation, periodic and event functions without modifying the main AP loop.
+</p><p>See <a href="/wiki/FirmwareArchitecture" title="FirmwareArchitecture">FirmwareArchitecture</a> and <a href="/wiki/Subsystems" title="Subsystems">Subsystems</a> for the differences of modules to subsystems.
+</p>
+<div id="toc" class="toc"><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Available_modules"><span class="tocnumber">1</span> <span class="toctext">Available modules</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Make_your_own"><span class="tocnumber">2</span> <span class="toctext">Make your own</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#In_the_airframe_file"><span class="tocnumber">3</span> <span class="toctext">In the airframe file</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#In_the_module_file"><span class="tocnumber">4</span> <span class="toctext">In the module file</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#In_the_airborne_code"><span class="tocnumber">5</span> <span class="toctext">In the airborne code</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Starting_.2F_stopping_a_module"><span class="tocnumber">6</span> <span class="toctext">Starting / stopping a module</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Telemetry"><span class="tocnumber">7</span> <span class="toctext">Telemetry</span></a></li>
+</ul>
+</div>
+
+<h3><span class="mw-headline" id="Available_modules">Available modules</span></h3>
+<p>There is a special page listing all currently available modules to simply extend your Paparazzi autopilot board possibilities. <a href="/wiki/Modules_list" title="Modules list"> Go here to inspect this list of modules</a>.
+</p><p>The auto-generated list and short doc for all modules in the master branch can be found at the <a rel="nofollow" class="external text" href="http://docs.paparazziuav.org/latest/onboard_modules.html">onboard modules page of the doxygen docs</a>.
+</p>
+<h3><span class="mw-headline" id="Make_your_own">Make your own</span></h3>
+<p>It is very possible to make your own module and to share it with the world. To make it even easier there is a helper tool called "create_module" in the main Paparazzi directory. Try it, you'll be surprised how easy it is to start your own module with the help of this tool. 
+</p>
+<h3><span class="mw-headline" id="In_the_airframe_file">In the airframe file</span></h3>
+<p>To add a new module for an aircraft, add a section <b>modules</b> in his airframe xml file&#160;:
+</p>
+<table width="75%" cellpadding="0" cellspacing="0" style="background-color: #fff; border: solid 1px #000;">
+<tr>
+<td style="background-color: #f9f9f9; border: 0px; border-bottom: solid 1px #000;"> <font size="-1"><b>File:</b> conf/airframes/myplane.xml</font>
+</td></tr>
+<tr>
+<td>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre> <span class="nt">&lt;modules</span> <span class="na">main_freq=</span><span class="s">&quot;60&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;load</span> <span class="na">name=</span><span class="s">&quot;demo_module.xml&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;load</span> <span class="na">name=</span><span class="s">&quot;dummy.xml&quot;</span><span class="nt">&gt;</span>
+   <span class="nt">&lt;define</span> <span class="na">name=</span><span class="s">&quot;BLA&quot;</span> <span class="na">value=</span><span class="s">&quot;1&quot;</span><span class="nt">/&gt;</span>
+   <span class="nt">&lt;define</span> <span class="na">name=</span><span class="s">&quot;BLUB&quot;</span><span class="nt">/&gt;</span>
+   <span class="nt">&lt;configure</span> <span class="na">name=</span><span class="s">&quot;FOO&quot;</span> <span class="na">value=</span><span class="s">&quot;BAR&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;/load&gt;</span>
+ <span class="nt">&lt;/modules&gt;</span>
+</pre></div>
+</td></tr></table>
+<ul><li> The main_freq parameter (in Hz) is optional. If present, it allows to specify the frequency of the main loop. Default is the <i>main periodic frequency</i> of the autopilot. If not needed to be specified, then the first line is just: &lt;modules&gt;</li>
+<li> The children "define" generate compilation defines for all the targets of a module and can be used with or without value. It allows to keep the module description more generic add to place the airframe dependent parameters in the airframe xml file.</li>
+<li> The child "configure" generates a makefile variable.</li></ul>
+<table class="wikitable">
+
+<tr>
+<td> Since <b>v5.8</b> it is possible to safely replace <i>subsystem</i> by <i>module</i> in your airframe file. The roadmap of Paparazzi is to convert existing <a href="/wiki/Subsystems" title="Subsystems">subsystems</a> to modules.
+<p>As a result, modules can be loaded using the same format than subsystems, as children of the <b>firmware</b> node.
+</p>
+<table width="75%" cellpadding="0" cellspacing="0" style="background-color: #fff; border: solid 1px #000;">
+<tr>
+<td style="background-color: #f9f9f9; border: 0px; border-bottom: solid 1px #000;"> <font size="-1"><b>File:</b> conf/airframes/myplane.xml</font>
+</td></tr>
+<tr>
+<td>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre> <span class="nt">&lt;firmware</span> <span class="na">name=</span><span class="s">&quot;...&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;module</span> <span class="na">name=</span><span class="s">&quot;demo_module&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;module</span> <span class="na">name=</span><span class="s">&quot;dummy&quot;</span><span class="nt">&gt;</span>
+   <span class="nt">&lt;define</span> <span class="na">name=</span><span class="s">&quot;BLA&quot;</span> <span class="na">value=</span><span class="s">&quot;1&quot;</span><span class="nt">/&gt;</span>
+   <span class="nt">&lt;define</span> <span class="na">name=</span><span class="s">&quot;BLUB&quot;</span><span class="nt">/&gt;</span>
+   <span class="nt">&lt;configure</span> <span class="na">name=</span><span class="s">&quot;FOO&quot;</span> <span class="na">value=</span><span class="s">&quot;BAR&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;/module&gt;</span>
+  <span class="nt">&lt;target</span> <span class="na">name=</span><span class="s">&quot;...&quot;</span> <span class="na">board=</span><span class="s">&quot;...&quot;</span><span class="nt">&gt;</span>
+   <span class="nt">&lt;module</span> <span class="na">name=</span><span class="s">&quot;something&quot;</span> <span class="na">type=</span><span class="s">&quot;sometype&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;/target&gt;</span>
+ <span class="nt">&lt;/modules&gt;</span>
+</pre></div>
+</td></tr></table>
+<p>The <b>modules</b> node is then only needed if a custom <i>main_freq</i> parameter need to be specified.
+</p>
+</td></tr></table>
+<h3><span class="mw-headline" id="In_the_module_file">In the module file</span></h3>
+<p>The modules description files are located in <b>conf/modules</b>.
+</p>
+<table width="75%" cellpadding="0" cellspacing="0" style="background-color: #fff; border: solid 1px #000;">
+<tr>
+<td style="background-color: #f9f9f9; border: 0px; border-bottom: solid 1px #000;"> <font size="-1"><b>File:</b> conf/modules/mymodule.xml</font>
+</td></tr>
+<tr>
+<td>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre> <span class="cp">&lt;!DOCTYPE module SYSTEM &quot;module.dtd&quot;&gt;</span>
+ <span class="nt">&lt;module</span> <span class="na">name=</span><span class="s">&quot;demo_module&quot;</span> <span class="na">dir=</span><span class="s">&quot;demo_module&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;doc&gt;</span>
+   <span class="nt">&lt;description&gt;</span>
+     Demo module.
+     More details about this module.
+   <span class="nt">&lt;/description&gt;</span>
+   <span class="nt">&lt;configure</span> <span class="na">name=</span><span class="s">&quot;SOMETHING&quot;</span> <span class="na">value=</span><span class="s">&quot;S1|S2|S3&quot;</span> <span class="na">description=</span><span class="s">&quot;The thing to use&quot;</span><span class="nt">/&gt;</span>
+   <span class="nt">&lt;define</span> <span class="na">name=</span><span class="s">&quot;DEMO_MODULE_LED&quot;</span> <span class="na">value=</span><span class="s">&quot;LED_X&quot;</span> <span class="na">description=</span><span class="s">&quot;LED Selection&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;/doc&gt;</span>
+  <span class="nt">&lt;settings&gt;</span>
+    <span class="nt">&lt;dl_settings</span> <span class="na">name=</span><span class="s">&quot;bla&quot;</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;dl_setting</span> <span class="na">min=</span><span class="s">&quot;0&quot;</span> <span class="na">max=</span><span class="s">&quot;5&quot;</span> <span class="na">step=</span><span class="s">&quot;1&quot;</span> <span class="na">var=</span><span class="s">&quot;bla_bla&quot;</span> <span class="na">shortname=</span><span class="s">&quot;bb&quot;</span><span class="nt">/&gt;</span>
+    <span class="nt">&lt;/dl_settings&gt;</span>
+  <span class="nt">&lt;settings&gt;</span>
+  <span class="nt">&lt;depends&gt;</span>foo.xml,bar|baz<span class="nt">&lt;/depends&gt;</span>
+  <span class="nt">&lt;conficts&gt;</span>boo<span class="nt">&lt;/conflicts&gt;</span>
+  <span class="nt">&lt;header&gt;</span>
+   <span class="nt">&lt;file</span> <span class="na">name=</span><span class="s">&quot;demo_module.h&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;/header&gt;</span>
+  <span class="nt">&lt;init</span> <span class="na">fun=</span><span class="s">&quot;init_demo()&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;periodic</span> <span class="na">fun=</span><span class="s">&quot;periodic_1Hz_demo()&quot;</span> <span class="na">freq=</span><span class="s">&quot;1.&quot;</span> <span class="na">start=</span><span class="s">&quot;start_demo()&quot;</span> <span class="na">stop=</span><span class="s">&quot;stop_demo()&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;periodic</span> <span class="na">fun=</span><span class="s">&quot;periodic_10Hz_demo()&quot;</span> <span class="na">period=</span><span class="s">&quot;0.1&quot;</span> <span class="na">start=</span><span class="s">&quot;start_demo()&quot;</span> <span class="na">stop=</span><span class="s">&quot;stop_demo()&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;makefile&gt;</span>
+   <span class="nt">&lt;raw&gt;</span>
+    #Raw makefile section
+   <span class="nt">&lt;/raw&gt;</span>
+   <span class="nt">&lt;define</span> <span class="na">name=</span><span class="s">&quot;USE_SOMETHING&quot;</span> <span class="na">value=</span><span class="s">&quot;$(SOMETHING)&quot;</span><span class="nt">/&gt;</span>
+   <span class="nt">&lt;define</span> <span class="na">name=</span><span class="s">&quot;DEMO_MODULE_LED&quot;</span> <span class="na">value=</span><span class="s">&quot;2&quot;</span><span class="nt">/&gt;</span>
+   <span class="nt">&lt;file</span> <span class="na">name=</span><span class="s">&quot;demo_module.c&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;/makefile&gt;</span>
+ <span class="nt">&lt;/module&gt;</span>
+</pre></div>
+</td></tr></table>
+<ul><li> module
+<ul><li> name&#160;: this parameter is the name of the module (mandatory)</li>
+<li> dir&#160;: the name of the directory in <b>sw/airborne/modules</b> where the source code is located (in the above example: sw/airborne/modules/demo_module), if not specified, the name of the module is used as default directory name</li></ul></li></ul>
+<ul><li> doc
+<ul><li> description: a description of the module. The content of the first line until the dot is treated as the brief description used as the name in the <a rel="nofollow" class="external text" href="http://paparazzi.github.com/docs/latest/onboard_modules.html">generated docs</a> (mandatory).</li>
+<li> define: describe the possible define flags for this module with default values and a short description (usually called from the <a href="/wiki/Airframe_Configuration" title="Airframe Configuration">airframe firmware section</a>)</li>
+<li> configure: describe the possible configuration options for this module with default values and a short description (usually called from the <a href="/wiki/Airframe_Configuration" title="Airframe Configuration">airframe firmware section</a>)</li>
+<li> section: describe the parameters that can be added as a section in the <a href="/wiki/Airframe_Configuration" title="Airframe Configuration">airframe configuration file</a></li></ul></li></ul>
+<ul><li> settings_file (0 or more)
+<ul><li> file name of a settings xml file</li></ul></li></ul>
+<ul><li> settings (0 or more): use the same format than systems <a href="/wiki/Settings" title="Settings">Settings</a>
+<ul><li> target: a list of targets allowed or forbidden for which embedded settings should be used</li>
+<li> dl_settings node with a tab name
+<ul><li> dl_setting: setting description, see <a href="/wiki/Settings" title="Settings">Settings</a> page for details</li></ul></li></ul></li></ul>
+<ul><li> depends (0 or 1 'depends' node)
+<ul><li> comma separated list of required modules</li>
+<li> allows to specify OR dependencies with pipe (|) similar to Debian depends, ex: <code>foo,bar|baz</code> would make it depend on foo AND (bar OR baz)</li>
+<li> the elements can be a xml file (in conf/modules) or a module name (as set in the module xml 'name' node)</li></ul></li></ul>
+<div class="toccolours mw-collapsible mw-collapsed" style="width:800px">
+<p>Prior to <b>v5.3.0_testing</b> we had one <tt>depend</tt> node instead of <tt>depends</tt> and <tt>conflicts</tt>:
+</p>
+<div class="mw-collapsible-content">'depend' node used prior to <b>v5.3_devel-438-g8be5c42</b>):
+<ul><li> depend (0 or 1 'depend' node)
+<ul><li> require&#160;: the list of required modules</li>
+<li> conflict&#160;: the list of conflicting modules</li>
+<li> the elements of a list are separated with a pipe (|), ex: "bla|boo"</li>
+<li> the elements can be a xml file (in conf/modules) or a module name (in sw/airborne/modules)</li></ul></li></ul>
+</div></div>
+<ul><li> conflicts (0 or 1 'conflicts' node)
+<ul><li> comma separated list of conflicting modules</li>
+<li> the elements can be a xml file (in conf/modules) or a module name (as set in the module xml 'name' node)</li></ul></li></ul>
+<ul><li> autoload (0 or 1 'autoload' node)
+<ul><li> name&#160;: the name of the module which should also be automatically loaded</li></ul></li></ul>
+<ul><li> header (0 or 1 'header' node)
+<ul><li> file&#160;: the name of the header to automatically include in modules.h</li></ul></li></ul>
+<ul><li> init (0 or more 'init' node)
+<ul><li> fun&#160;: initialization function name, called once at startup</li></ul></li></ul>
+<ul><li> periodic (0 or more 'periodic' node)
+<ul><li> fun&#160;: periodic function name (mandatory)</li>
+<li> period&#160;: period of the function in seconds, cannot be higher than the main frequency (if not specified, use freq parameter)</li>
+<li> freq&#160;: frequency of the function in Hz, cannot be higher than main frequency (used if period is not defined; if nor period nor freq are defined, the maximum frequency is used by default)</li>
+<li> delay&#160;: integer that can be used to impose a sequence in the periodic functions (use values between 0 and main_freq/function_freq)</li>
+<li> start&#160;: function to be executed before the periodic function starts</li>
+<li> stop&#160;: function to be executed after the periodic function stops (never called if autorun=LOCK)</li>
+<li> autorun&#160;: TRUE to make the periodic function starts automatically after init, FALSE to make it way for a user command to start, LOCK to make it always true (default is LOCK)</li></ul></li></ul>
+<ul><li> event (0 or more 'event' node)
+<ul><li> fun&#160;: event function name called in each cycle of the main AP loop</li></ul></li></ul>
+<ul><li> datalink (0 or more 'datalink' node)
+<ul><li> message&#160;: name of the datalink (uplink) message to be parsed</li>
+<li> fun&#160;: name of the function called when a message arrived</li></ul></li></ul>
+<ul><li> makefile (0 or more 'makefile' node)
+<ul><li> target&#160;: a list of build targets separated with pipes (ex: &lt;makefile target="tunnel|foo"&gt;) (default is "ap|sim|nps")</li>
+<li> define&#160;: each define node specifies a CFLAGS for the current targets
+<ul><li> name&#160;: name of the define (ex: name="USE_MODULE_LED" -&gt; target.CFLAGS += -DUSE_MODULE_LED) (mandatory)</li>
+<li> value&#160;: the value to associate (ex: name="DEMO_MODULE_LED" value="2" -&gt; target.CFLAGS += -DDEMO_MODULE_LED=2)</li>
+<li> type&#160;: the type of define, possible values are "define" or "D", "include" or "I" (ex: name="$(ARCH_SRC)" type="include" -&gt; target.CFLAGS += -I$(ARCH_SRC) ) (default is "define")</li></ul></li>
+<li> file
+<ul><li> name&#160;: the name of the c file (located in "sw/airborne/modules/&lt;dir_name&gt;") to add in the Makefile (ex: name="demo_module.c" -&gt; target.srcs += modules/&lt;dir_name&gt;/demo_module.c)</li>
+<li> dir&#160;: select a directory for this file only (overrides the default directory)</li></ul></li>
+<li> file_arch (hardware related code)
+<ul><li> name&#160;: the name of the c file (located in "sw/airborne/arch/&lt;ARCH&gt;/modules/&lt;dir_name&gt;") add in the Makefile (ex: name="demo_module_hw.c" -&gt; target.srcs += arch/&lt;ARCH&gt;/modules/&lt;dir_name&gt;/demo_module_hw.c)</li>
+<li> dir&#160;: select a directory for this file only (overrides the default directory)</li></ul></li>
+<li> raw&#160;: allows to define a raw makefile section</li></ul></li></ul>
+<p>If the compilation target is not supported by the module, it will be automatically unloaded. This may require a 'clean_ac' to work.
+</p>
+<h3><span class="mw-headline" id="In_the_airborne_code">In the airborne code</span></h3>
+<p>The code corresponding to a module should be placed in the directory "sw/airborne/modules/&lt;dir_name&gt;" where dir_name must match the one in your conf file (attribute "dir" if specified, "name" otherwise). There are also defines generated for the frequency and period of every periodic functions of the module that can be used in the code: &lt;PERIODIC_FUNCTION_NAME&gt;_FREQ and &lt;PERIODIC_FUNCTION_NAME&gt;_PERIOD.
+</p>
+<h3><span class="mw-headline" id="Starting_.2F_stopping_a_module">Starting / stopping a module</span></h3>
+<p>If modules are loaded with periodical functions that are not locked, a new tab will automatically appear in the setting page of the GCS that allows you to start and stop them.
+</p><p>An other possibility is that any file that includes the header "modules.h" can start or stop the periodic tasks.
+</p>
+<h3><span class="mw-headline" id="Telemetry">Telemetry</span></h3>
+<p>In the <a href="/wiki/Telemetry" title="Telemetry">telemetry</a> file, if a module name is specified in a field <b>message</b>, it will be included in the telemetry messages only if the corresponding module is loaded.
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre> <span class="nt">&lt;message</span> <span class="na">name=</span><span class="s">&quot;SOME_MODULE_MSG&quot;</span> <span class="na">period=</span><span class="s">&quot;2&quot;</span> <span class="na">module=</span><span class="s">&quot;module_name&quot;</span><span class="nt">/&gt;</span>
+</pre></div>
+<p>This functionality was removed again in v5.9 (<a rel="nofollow" class="external text" href="https://github.com/paparazzi/paparazzi/pull/1678">#1678</a>), since it is not needed anymore with the <tt>register_periodic_telemetry</tt> functionality we have since v5.0.
+</p>
+<!-- 
+NewPP limit report
+Cached time: 20200219101051
+Cache expiry: 21600
+Dynamic content: true
+CPU time usage: 0.060 seconds
+Real time usage: 0.153 seconds
+Preprocessor visited node count: 88/1000000
+Preprocessor generated node count: 242/1000000
+Post‐expand include size: 875/2097152 bytes
+Template argument size: 185/2097152 bytes
+Highest expansion depth: 3/40
+Expensive parser function count: 0/100
+-->
+
+<!-- 
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    8.424      1 - -total
+ 91.59%    7.715      3 - Template:Box_Code
+-->
+
+<!-- Saved in parser cache with key pprzwiki_mediawiki-wiki_:pcache:idhash:2203-0!*!0!!en!*!* and timestamp 20200219101051 and revision id 21265
+ -->
+</div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="http://wiki.paparazziuav.org/w/index.php?title=Modules&amp;oldid=21265">http://wiki.paparazziuav.org/w/index.php?title=Modules&amp;oldid=21265</a>"					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/wiki/Category:Developer_Documentation" title="Category:Developer Documentation">Developer Documentation</a></li><li><a href="/wiki/Category:Modules" title="Category:Modules">Modules</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Modules" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="/wiki/Modules"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+															<li  id="ca-talk" class="new"><span><a href="/w/index.php?title=Talk:Modules&amp;action=edit&amp;redlink=1"  title="Discussion about the content page [t]" accesskey="t" rel="discussion">Discussion</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label">
+							<span>Variants</span><a href="#"></a>
+						</h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="/wiki/Modules" >Read</a></span></li>
+															<li id="ca-viewsource"><span><a href="/w/index.php?title=Modules&amp;action=edit"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=Modules&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="/w/index.php" id="searchform">
+							<div id="simpleSearch">
+							<input type="search" name="search" placeholder="Search" title="Search PaparazziUAV [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-Navigation' aria-labelledby='p-Navigation-label'>
+			<h3 id='p-Navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-Home"><a href="/wiki/Main_Page">Home</a></li><li id="n-Hardware"><a href="/wiki/Hardware">Hardware</a></li><li id="n-Software"><a href="/wiki/Software">Software</a></li><li id="n-FAQ"><a href="/wiki/FAQ">FAQ</a></li><li id="n-Downloads"><a href="/wiki/Downloads">Downloads</a></li><li id="n-Remembering-Hecto"><a href="/wiki/Hecto">Remembering Hecto</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Communication' aria-labelledby='p-Communication-label'>
+			<h3 id='p-Communication-label'>Communication</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-Mailing-list"><a href="http://lists.paparazziuav.org" rel="nofollow">Mailing list</a></li><li id="n-Gitter-chat"><a href="https://gitter.im/paparazzi/discuss" rel="nofollow">Gitter chat</a></li><li id="n-Contact"><a href="/wiki/Contact">Contact</a></li><li id="n-Wiki-account"><a href="/wiki/Account">Wiki account</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Development' aria-labelledby='p-Development-label'>
+			<h3 id='p-Development-label'>Development</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-How-to-contribute"><a href="/wiki/Contributing">How to contribute</a></li><li id="n-Developer-Guide"><a href="/wiki/Developer_Guide">Developer Guide</a></li><li id="n-Doxygen-docs"><a href="http://docs.paparazziuav.org" rel="nofollow">Doxygen docs</a></li><li id="n-Git-repository"><a href="http://github.com/paparazzi/paparazzi" rel="nofollow">Git repository</a></li><li id="n-Build-tests"><a href="/wiki/Builds">Build tests</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Wiki_tools' aria-labelledby='p-Wiki_tools-label'>
+			<h3 id='p-Wiki_tools-label'>Wiki tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li><li id="n-Editing-Help"><a href="/wiki/Help:Editing">Editing Help</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-coll-print_export' aria-labelledby='p-coll-print_export-label'>
+			<h3 id='p-coll-print_export-label'>Print/export</h3>
+
+			<div class="body">
+									<ul>
+						<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Modules">Create a book</a></li><li id="coll-download-as-rl"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Modules&amp;returnto=Modules&amp;oldid=21265&amp;writer=rl">Download as PDF</a></li><li id="t-print"><a href="/w/index.php?title=Modules&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Modules" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Modules" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Modules&amp;oldid=21265" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Modules&amp;action=info" title="More information about this page">Page information</a></li>					</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 17 June 2016, at 13:23.</li>
+											<li id="footer-info-copyright">Content is available under <a class="external" rel="nofollow" href="http://www.gnu.org/copyleft/fdl.html">GNU Free Documentation License 1.3 or later</a> unless otherwise noted.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="/wiki/PaparazziUAV:Privacy_policy" title="PaparazziUAV:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/wiki/PaparazziUAV:About" title="PaparazziUAV:About">About PaparazziUAV</a></li>
+											<li id="footer-places-disclaimer"><a href="/wiki/PaparazziUAV:General_disclaimer" title="PaparazziUAV:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-copyrightico">
+							<a href="http://www.gnu.org/copyleft/fdl.html"><img src="/w/resources/assets/licenses/gnu-fdl.png" alt="GNU Free Documentation License 1.3 or later" width="88" height="31"/></a>						</li>
+											<li id="footer-poweredbyico">
+							<a href="//www.mediawiki.org/"><img src="/w/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/w/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /w/resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>						</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.state({"user":"ready","user.groups":"ready"});mw.loader.load(["mediawiki.toc","ext.categoryTree","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"]);});</script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-39710697-1', 'auto');
+  ga('set', 'anonymizeIp', true);
+  ga('send', 'pageview');
+
+</script>
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://stat.paparazziuav.org/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", "1"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Piwik Code -->
+
+<!-- Piwik Image Tracker -->
+<noscript><img src="https://stat.paparazziuav.org/piwik.php?idsite=1&amp;rec=1" style="border:0" alt="" /></noscript>
+<!-- End Piwik --><script>
+  ((window.gitter = {}).chat = {}).options = {
+    room: 'paparazzi/discuss'
+  };
+</script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":101});});</script>
+	</body>
+</html>

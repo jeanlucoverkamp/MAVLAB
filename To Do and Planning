@@ -1,0 +1,19 @@
+This file is to organize ourselves into sub-groups, define tasks, and track deadlines
+
+Responsibilities:
+  >Drone-Paparazzi linking and working:
+  Know how to actually operate the drone and paparazzi. Make orange avoider working. Video stream, adjust simple flight plans using
+  existing modules to make fly circles or straight lines.
+    - Luc
+    - Prak
+    
+  > Get know how on making modules, adjusting .c/.xml files. So teach us where to change code, how to change code
+  what files to adjust and not touch. Maybe make an example of a 'green'avoider or a 'dumb' circular track as an example. Understand
+  standardized functions and maybe make a list of usefull functions etc.
+    - Sebastian
+    - Barry
+    
+  > Do a literature survey on vision based navigation, think of a few strategies what we can do to perfrom the project. Understand different
+  modules of OpenCv so we know what existing function that might be usefull.
+    - Jean-Luc
+    - Hakim
